@@ -5,9 +5,14 @@ body, html{
     font-family: sans-serif;
     background: #000;
     text-align: center;
-    background-image: url("bled-1899264__480.jpg");
+    background-image: url("pictures/bled-1899264__480.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+h1{
+    color: black;
+    font-size: 30px;
+    font-family: monospace;
 }
 .container{
     background-color: rgba(0,0,0,.6);
@@ -40,9 +45,10 @@ footer {
     left: 0px;
     bottom: 0px;
     width: 100%;
+    background-color: white;
 }
 h3 {
-    color: white;
+    color: black;
     font-size: 20px;
 }
 footer a {
@@ -69,9 +75,9 @@ footer a {
     text-shadow: 0 1px 2px rgba(0,0,0,.6);
     font-size: 30px;
   }
-.lol{
+  .lol{
     margin: auto;
-    width: 60%;
+    width: 100%;
     border: 10px solid white; 
 }
 .carousel-content p{
