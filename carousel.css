@@ -79,6 +79,9 @@ footer a {
     margin: auto;
     width: 35%;
 }
+.modal-backdrop {
+z-index: -1;
+}
 .carousel-content p{
     font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
