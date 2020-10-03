@@ -8,10 +8,19 @@ body, html{
     background-color: white;
 }
 #rower{
-    background-color:grey;
-    overflow: hidden;
-    text-align: center;
+  background-color:grey;
+  overflow: hidden;
+  text-align: center;
 
+}
+#rower a{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 15px 15px;
+  text-decoration: none;
 }
 .container-fluid{
     background-color: white;
@@ -61,6 +70,9 @@ div.name p.school{
     -webkit-text-stroke: 3px black;
     font-family: cursive;
 }
+.img-fluid{
+  border:2px solid black;
+}
 .socials {
   position: relative;
   left: 0px;
@@ -68,9 +80,10 @@ div.name p.school{
   width: 100%;
   background-color: white;
 }
-h3 {
+h1 {
     color: black;
-    font-size: 20px;
+    font-size: 40px;
+    text-decoration: underline;
 }
 .socials a {
     font-size: 30px
@@ -163,6 +176,17 @@ h3 {
   border-top-left-radius: 50%;
   border-bottom-right-radius: 50%;
   border-bottom-left-radius: 50%;
+}
+.text-muted{
+  font-size: 11px;
+}
+.timeline-body p{
+  font-size: 13px;
+}
+.guitar{
+  font-size: 2px;
+  text-decoration: underline;
+  border: 1px solid red;
 }
 .timeline .timeline-item .timeline-badge i,
 .timeline .timeline-item .timeline-badge .fa,

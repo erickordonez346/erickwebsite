@@ -5,7 +5,7 @@ body, html{
     font-family: sans-serif;
     background: #000;
     text-align: center;
-    background-image: url("bled-1899264__480.jpg");
+    background-image: url("pictures/bled-1899264__480.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -27,7 +27,7 @@ h1{
     text-transform: uppercase;
     padding: 15px 15px;
     text-decoration: none;
-}
+  }
 .hoverline::after{
     content:"";
     display: block;
@@ -79,10 +79,10 @@ footer a {
     margin: auto;
     width: 35%;
 }
-.modal-backdrop {
-z-index: -1;
-}
 .carousel-content p{
     font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.modal-backdrop{
+    z-index: -1;
 }
